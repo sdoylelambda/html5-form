@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
-@import url("fontawesome-all.min.css");
+/* @import url("fontawesome-all.min.css"); */
+@import url('../css/fontawesome-all.min.css');
 
 /*
 	Overflow by HTML5 UP
@@ -84,7 +85,7 @@ input, select, textarea {
 
 	body {
 		background-color: #183026;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		/* background-image: url("images/overlay.png"), url("../../images/bg.jpg"); */
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
 		background-position: top left, center 0;
@@ -1833,7 +1834,8 @@ input, select, textarea {
 			top: -4.5em;
 			margin-left: -45px;
 			margin-top: -33px;
-			background: url("images/arrow.svg") no-repeat;
+			/* background: url("./images/arrow.svg") no-repeat; */
+			background: url('../css/images/arrow.svg') no-repeat;
 		}
 
 		.box :last-child {
@@ -2067,7 +2069,8 @@ input, select, textarea {
 				bottom: -4.5em;
 				margin-left: -45px;
 				margin-bottom: -33px;
-				background: url("images/arrow.svg") no-repeat;
+				/* background: url("images/arrow.svg") no-repeat; */
+				background: url('../css/images/arrow.svg') no-repeat;
 			}
 
 		body.is-preload #header {
@@ -2186,7 +2189,8 @@ input, select, textarea {
 		.poptrox-popup .loader {
 			width: 48px;
 			height: 48px;
-			background: url("images/loader.gif");
+			/* background: url("images/loader.gif"); */
+			/* background: url("../im"); */
 			position: absolute;
 			top: 50%;
 			left: 50%;
@@ -2295,7 +2299,7 @@ input, select, textarea {
 				height: 40px;
 				border-radius: 100%;
 				box-shadow: inset 0 0 0 1px #fff;
-				background: rgba(255, 255, 255, 0.1) url("images/poptrox-closer.svg") center center;
+				/* background: rgba(255, 255, 255, 0.1) url("images/poptrox-closer.svg") center center; */
 				color: #fff !important;
 			}
 
@@ -2352,7 +2356,7 @@ input, select, textarea {
 
 			body {
 				background-color: #203936;
-				background-image: url("images/overlay.png"), url("../../images/bg-alt.jpg");
+				/* background-image: url("images/overlay.png"), url("../../images/bg-alt.jpg"); */
 				background-repeat: repeat, no-repeat;
 				background-size: auto, 100% auto;
 				background-position: top left, top center;
